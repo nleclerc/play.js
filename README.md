@@ -12,7 +12,7 @@
 
 # USAGE
 
-      var play = require('play').Play();
+      var play = require('play');
 
       // play with a callback
       play.sound('./wavs/sfx/intro.wav', function(){
@@ -75,7 +75,7 @@ Node.js
       // If you want raw access to the player (via stdin)
 
       // require and stuff happened here
-      var play = require('play').Play();
+      var play = require('play');
       var player = false;
 
       // Force it to use mplayer (can be anything else)
